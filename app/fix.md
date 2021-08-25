@@ -1,12 +1,3 @@
-$title: #363838;
-$default: #5A5A5A;
-
-%title-font{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
-
 @function max($numbers...){
     @return m#{a}x(#{$numbers});
 }

@@ -13,6 +13,7 @@ $(function () {
         arrows: false,
         fade: true,
         autoplay: true
+        
     });
 
 
@@ -21,6 +22,8 @@ $(function () {
             filter: '.living'
         }
     });
+
+
 
 
 
