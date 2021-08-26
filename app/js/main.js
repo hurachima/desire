@@ -8,14 +8,16 @@ $(function () {
         $('.rightside-menu').addClass('rightside-menu--close');
     });
 
-    $('.top__slider').slick({
-        dots: true,
-        arrows: false,
-        fade: true,
-        autoplay: true
-        
-    });
 
+    const swiper = new Swiper('.swiper-container', {  
+        loop: true,
+        slidesPerView: 1,
+        effect: "fade",
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+      });
 
     var mixer = mixitup('.gallery__inner', {
         load: {
