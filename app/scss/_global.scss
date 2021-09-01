@@ -58,6 +58,34 @@ body{
 
 
 
+.slick-dots{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	li{
+		margin: 0 15px;
+	}
+	button{
+		border: none;
+		background-color: $title;
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		padding: 0;
+		font-size: 0;
+	}
+	li.slick-active{
+		button{
+			background-color: #ffef35;
+		}
+	}
+}
+
+
+
+
+
+
 .info-email{
 	font-weight: 600;
 	font-size: 14px;
