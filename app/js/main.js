@@ -26,6 +26,12 @@ $(function () {
         slidesToScroll: 10
       });
 
+
+      $('.article-slider__box').slick({
+           prevArrow: '<button type="button" class="article-slider__arrow article-slider__arrow-left"><img src="images/slider-arrow-left.svg" alt="arrow"></button>',
+           nextArrow: '<button type="button" class="article-slider__arrow article-slider__arrow-right"><img src="images/slider-arrow-right.svg" alt="arrow"></button>'
+      });
+
     var mixer = mixitup('.gallery__inner', {
         load: {
             filter: '.living'
