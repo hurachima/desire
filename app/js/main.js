@@ -9,6 +9,11 @@ $(function () {
     });
 
 
+    $('.header__btn-menu').on('click', function(){
+        $('.menu').toggleClass('menu--open');
+    });
+
+
     const swiper = new Swiper('.swiper-container', {  
         loop: true,
         slidesPerView: 1,
