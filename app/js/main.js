@@ -14,6 +14,11 @@ $(function () {
     });
 
 
+    if($(window).width() < 651){
+        $('.works-path__item--measuring').appendTo($('.works-path__items-box'));
+    }
+
+
     const swiper = new Swiper('.swiper-container', {  
         loop: true,
         slidesPerView: 1,
