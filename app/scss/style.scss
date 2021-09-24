@@ -287,6 +287,8 @@
     &__item::after{
         content: '/';
         position: absolute;
+        top: 0;
+        right: 0;
     }
 
     &__item:last-child::after{
